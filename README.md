@@ -106,7 +106,7 @@ namespace Example
         {
 
             Configuration config = new Configuration();
-            config.BasePath = "http://localhost:3000/auth";
+            config.BasePath = "https://auth-service-latest.onrender.com/auth";
             // create instances of HttpClient, HttpClientHandler to be reused later with different Api classes
             HttpClient httpClient = new HttpClient();
             HttpClientHandler httpClientHandler = new HttpClientHandler();
@@ -135,7 +135,7 @@ namespace Example
 <a id="documentation-for-api-endpoints"></a>
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost:3000/auth*
+All URIs are relative to *https://auth-service-latest.onrender.com/auth*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
