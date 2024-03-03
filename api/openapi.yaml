@@ -5,8 +5,7 @@ info:
     \ utilizing tokens for authentication. Users can register with unique usernames\
     \ and passwords, authenticate using client credentials, retrieve client IDs and\
     \ secrets, and regenerate client credentials as needed. The API supports various\
-    \ user roles, including 'user', 'admin', 'moderator', 'guest', and 'superadmin'.\
-    \ Token is valid for 12hrs."
+    \ user roles, including 'user', 'admin', 'moderator', 'guest', and 'superadmin'."
   title: Auth Service
   version: 1.0.0
 servers:
