@@ -118,7 +118,7 @@ namespace authservice.Client
         {
             Proxy = null;
             UserAgent = WebUtility.UrlEncode("OpenAPI-Generator/1.0.0/csharp");
-            BasePath = "http://localhost:3000/auth";
+            BasePath = "https://auth-service-latest.onrender.com/auth";
             DefaultHeaders = new ConcurrentDictionary<string, string>();
             ApiKey = new ConcurrentDictionary<string, string>();
             ApiKeyPrefix = new ConcurrentDictionary<string, string>();
@@ -126,7 +126,7 @@ namespace authservice.Client
             {
                 {
                     new Dictionary<string, object> {
-                        {"url", "http://localhost:3000/auth"},
+                        {"url", "https://auth-service-latest.onrender.com/auth"},
                         {"description", "No description provided"},
                     }
                 }
@@ -147,7 +147,7 @@ namespace authservice.Client
             IDictionary<string, string> defaultHeaders,
             IDictionary<string, string> apiKey,
             IDictionary<string, string> apiKeyPrefix,
-            string basePath = "http://localhost:3000/auth") : this()
+            string basePath = "https://auth-service-latest.onrender.com/auth") : this()
         {
             if (string.IsNullOrWhiteSpace(basePath))
                 throw new ArgumentException("The provided basePath is invalid.", "basePath");

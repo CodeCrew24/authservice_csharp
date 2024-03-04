@@ -2,21 +2,24 @@
 
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo><!-- setting GenerateAssemblyInfo to false causes this bug https://github.com/dotnet/project-system/issues/3934 -->
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;net7.0;net6.0;</TargetFrameworks>
     <AssemblyName>authservice</AssemblyName>
     <PackageId>authservice</PackageId>
     <OutputType>Library</OutputType>
-    <Authors>OpenAPI</Authors>
-    <Company>OpenAPI</Company>
-    <AssemblyTitle>OpenAPI Library</AssemblyTitle>
+    <Authors>CodeCrew24</Authors>
+    <Company>Codecrew24</Company>
+    <AssemblyTitle>Auth Service</AssemblyTitle>
     <Description>A library generated from a OpenAPI doc</Description>
     <Copyright>No Copyright</Copyright>
     <RootNamespace>authservice</RootNamespace>
-    <Version>1.0.0</Version>
-    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\authservice.xml</DocumentationFile>
-    <RepositoryUrl>https://github.com/GIT_USER_ID/GIT_REPO_ID.git</RepositoryUrl>
+   <Version>0.0.1</Version>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\authservice.csharp.xml</DocumentationFile>
+    <RepositoryUrl>https://github.com/CodeCrew24/authservice_csharp.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>Minor update</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/CodeCrew24/authservice_csharp/releases</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/CodeCrew24</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Nullable>annotations</Nullable>
   </PropertyGroup>
 
